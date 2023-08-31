@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-us-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background-color: #faf1e4;
+  position: fixed;
+  z-index: 2;
+  border-bottom: 2px solid #435334;
+
+  .left-nav {
+    p {
+      font-weight: 500;
+      font-size: 1rem;
+      font-size: clamp(1rem, 5vw, 2rem);
+      text-shadow: -2px -2px 18px #435334;
+      font-family: "Ubuntu", sans-serif;
+      color: #435334;
+      margin-bottom: 0;
+      padding-left: 25px;
+    }
+  }
+
+  .right-nav {
+    ul {
+      width: 250px;
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      padding-top: 15px;
+      padding-right: 30px;
+
+      li a {
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #435334;
+      }
+    }
+  }
+}
+
+.about-us {
+  height: 350vh;
+  background-color: #faf1e4;
+  .main-img {
+    height: 30%;
+    background-image: url(../images/about-us-main.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container-about_us {
+    display: grid;
+    grid-template-columns: 650px 650px;
+    grid-template-rows: 300px 150px 400px 150px 400px 100px 100px 380px;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+
+    grid-template-areas:
+      ". img-1"
+      "text-1 img-1"
+      "img-2 img-1"
+      "img-2 txt-2"
+      "img-2 img-3"
+      "img-2 img-3"
+      "txt-3 img-3"
+      ". img-3";
+
+    .about_us-txt1 {
+      grid-area: text-1;
+      width: 450px;
+      font-size: 1.5rem;
+      color: #435334;
+      text-shadow: -4px -4px 16px #9eb384;
+    }
+
+    .about_us-img1 {
+      grid-area: img-1;
+      width: 540px;
+      height: 672px;
+      box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .about_us-img2 {
+      grid-area: img-2;
+      width: 540px;
+      height: 672px;
+      margin-top: -20px;
+      box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .about_us-txt2 {
+      grid-area: txt-2;
+      width: 450px;
+      font-size: 1.5rem;
+      color: #435334;
+      text-shadow: -4px -4px 16px #9eb384;
+      padding-top: 120px;
+    }
+
+    .about_us-txt3 {
+      grid-area: txt-3;
+      width: 450px;
+      font-size: 1.5rem;
+      color: #435334;
+      text-shadow: -4px -4px 16px #9eb384;
+    }
+
+    .about_us-img3 {
+      grid-area: img-3;
+      width: 540px;
+      height: 672px;
+      box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .last-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cedebd;
+  }
+  p {
+    width: 1200px;
+    font-size: 1.5rem;
+    color: #435334;
+    text-shadow: -4px -4px 16px gray;
+    text-align: justify;
+    padding: 30px 0px;
+  }
+
+  .about-us-last-img {
+    width: 100vw;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  // .about-us-nav .right-nav ul {
+  //   width: 100px;
+  // }
+
+  .about_us-img1,
+  .about_us-img2,
+  .about_us-img3 {
+    width: 240;
+    height: 372;
+  }
+  .container-about_us {
+    grid-template-columns: 250px 250px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 570px) {
+  .container-about_us {
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-us .container-about_us {
+    margin-top: 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+
+    grid-template-areas:
+      "img-1"
+      "text-1"
+      "img-2"
+      "txt-2"
+      "img-3"
+      "txt-3";
+  }
+
+  .container-about_us .about_us-img1 {
+    grid-area: img-1;
+  }
+
+  .container-about_us .about_us-txt1 {
+    grid-area: text-1;
+  }
+
+  .container-about_us .about_us-img2 {
+    grid-area: img-2;
+  }
+
+  .container-about_us .about_us-txt2 {
+    grid-area: text-2;
+  }
+
+  .container-about_us .about_us-img3 {
+    grid-area: img-3;
+  }
+
+  .container-about_us .about_us-txt3 {
+    grid-area: text-3;
+  }
+
+  .about-us .container-about_us .about_us-img1 {
+    width: 250;
+    height: 332;
+  }
+
+  .about-us .container-about_us .about_us-img2 {
+    width: 250;
+    height: 332;
+  }
+
+  .about-us .container-about_us .about_us-img3 {
+    width: 250;
+    height: 332;
+  }
+
+  .about-us .container-about_us .about_us-txt1 {
+    font-size: 1rem;
+  }
+
+  .about-us .container-about_us .about_us-txt2 {
+    font-size: 1rem;
+  }
+
+  .about-us .container-about_us .about_us-txt3 {
+    font-size: 1rem;
+  }
+
+  .about-us p {
+    font-size: 1rem;
+    padding-top: 0;
+    margin-top: 0;
+  }
+}

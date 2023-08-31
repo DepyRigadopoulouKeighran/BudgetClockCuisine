@@ -1,20 +1,3 @@
-// @import "base";
-// You need the base only when you are not using bootstrap. In that case, go to _base.scss
-// to customize it as you may want.
-
-@import "variables";
-@import "../../node_modules/bootstrap/scss/bootstrap";
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap");
-@import "./about-us";
-@import "./recipes_cards";
-@import "./bulk";
-@import "./pantry";
-@import "./grow_food";
-@import "./bulk-advantage";
-// Write your sass code here or import partials
-
-// nav - bar
-
 * {
   margin: 0;
   padding: 0;
@@ -57,24 +40,19 @@ nav {
         text-decoration: none;
         color: #435334;
       }
-
-      a:hover {
-        font-size: larger;
-        text-shadow: -2px -2px 18px #435334;
-      }
     }
   }
 }
 
-// main - options cards
+// Hero
 
-main {
-  background-color: #faf1e4;
+.bulk-main {
+  background-color: #435334;
   padding-top: 90px;
 
-  .hero-img {
-    height: 90%;
-    background-image: url(../images/mainpage2.jpg);
+  .bulk-hero-img {
+    height: 100%;
+    background-image: url(../images/bulk-main2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -86,19 +64,13 @@ main {
       animation-delay: 0.9s;
     }
 
-    .div-intro {
-      display: flex !important;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .intro {
-      width: 600px;
-      color: #faf1e4;
-      border: 1px solid rgba(255, 255, 255, 0.62);
-      background: rgba(255, 255, 255, 0.4);
+    .bulk-intro {
+      width: 500px;
+      color: #435334;
+      border: 1px solid #9eb384;
+      background: rgba(67, 83, 52, 0.4);
       border-radius: 16px;
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
       backdrop-filter: blur(8.2px);
       -webkit-backdrop-filter: blur(8.2px);
       text-shadow: -4px -4px 16px #9eb384;
@@ -107,18 +79,22 @@ main {
       font-weight: 500;
       text-align: justify;
       margin-top: 180px;
+      margin-bottom: 350px;
+      text-align: center;
 
       span {
-        color: #435334;
+        color: #faf1e4;
         text-shadow: -4px -6px 8px gray;
       }
     }
   }
 }
 
-.cards {
+// Bulk-cards
+
+.bulk-cards {
   position: relative;
-  top: -140px;
+
   div {
     display: flex;
     justify-content: center;
@@ -127,15 +103,15 @@ main {
   }
 }
 
-#my-container {
+#my-bulk-container {
   width: 100vw;
   margin-top: 60px;
 
-  #my-row {
-    #my-col1,
-    #my-col2,
-    #my-col3,
-    #my-col4 {
+  #my-bulk-row {
+    #my-bulk-col1,
+    #my-bulk-col2,
+    #my-bulk-col3,
+    #my-bulk-col4 {
       height: 550px;
       width: 290px;
       display: block;
@@ -143,18 +119,13 @@ main {
       box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
       gap: 20px;
 
-      .home-imgs {
+      .bulk-imgs {
         width: 150px;
         height: 150px;
         border-radius: 50%;
         box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
         margin-top: 40px;
         margin-bottom: 20px;
-      }
-
-      .animate__animated.animate__slideInUp {
-        animation-duration: 4s;
-        animation-delay: 1.5s;
       }
 
       h4 {
@@ -166,12 +137,12 @@ main {
         color: #435334;
       }
 
-      #h6-txt1,
-      #h6-txt2 {
+      #bulk-h6-txt1,
+      #bulk-h6-txt2 {
         margin-bottom: 25px;
       }
 
-      #seed-card {
+      #bulk-mix-card {
         margin-bottom: 25px;
       }
 
@@ -183,23 +154,28 @@ main {
         border-radius: 5px;
       }
 
-      .card-txt {
+      .bulk-card-txt {
         margin-top: 10px;
         margin-bottom: 30px;
       }
 
-      .card-txt2 {
-        margin-bottom: 50px;
+      .bulk-card-txt2 {
+        margin-top: 55px;
+        margin-bottom: 30px;
       }
 
-      .more {
+      .bulk-card-txt4 {
+        margin-top: 55px;
+      }
+
+      .bulk-more {
         color: #435334;
         text-decoration: none;
         border-bottom: 1px solid #435334;
         padding-bottom: 3px;
       }
 
-      .more:hover {
+      .bulk-more:hover {
         font-size: larger;
         text-shadow: -2px -2px 18px #435334;
       }
@@ -207,23 +183,24 @@ main {
   }
 }
 
-footer {
+.bulk-footer {
   .copyright {
     text-align: center;
-    color: #435334;
+    color: #faf1e4;
     font-size: 0.8rem;
-    margin-top: 20px;
+    margin-top: 50px;
+    padding-bottom: 30px;
   }
 }
 
 @media (min-width: 451px) and (max-width: 768px) {
-  .intro {
+  .bulk-intro {
     width: 400px;
   }
 }
 
 @media (min-width: 230px) and (max-width: 610px) {
-  main .hero-img .intro {
+  main .bulk-hero-img .bulk-intro {
     width: 400px;
   }
 }
