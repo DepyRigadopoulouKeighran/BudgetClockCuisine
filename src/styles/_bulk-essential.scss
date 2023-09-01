@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background-color: #faf1e4;
+  position: fixed;
+  z-index: 2;
+
+  .left-nav {
+    p {
+      font-weight: 500;
+      font-size: 1rem;
+      font-size: clamp(1rem, 5vw, 2rem);
+      text-shadow: -2px -2px 18px #435334;
+      font-family: "Ubuntu", sans-serif;
+      color: #435334;
+      margin-bottom: 0;
+      padding-left: 25px;
+    }
+  }
+
+  .right-nav {
+    ul {
+      width: 250px;
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      padding-top: 15px;
+      padding-right: 30px;
+
+      li a {
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #435334;
+      }
+    }
+  }
+}
+
+// Hero
+
+.bulk-essential-main {
+  background-color: #435334;
+  padding-top: 90px;
+
+  .bulk-essential-hero-img {
+    height: 100%;
+    background-image: url(../images/bulk-essential-main2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .bulk-essential-intro {
+      width: 500px;
+      color: #435334;
+      border: 1px solid #9eb384;
+      background: rgba(67, 83, 52, 0.4);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(8.2px);
+      -webkit-backdrop-filter: blur(8.2px);
+      text-shadow: -4px -4px 16px #9eb384;
+      padding: 15px 20px;
+      font-size: clamp(1rem, 10vw, 1.5rem);
+      font-weight: 500;
+      text-align: justify;
+      margin-top: 180px;
+      margin-bottom: 350px;
+      text-align: center;
+
+      span {
+        color: #faf1e4;
+        text-shadow: -4px -6px 8px gray;
+      }
+    }
+  }
+}
