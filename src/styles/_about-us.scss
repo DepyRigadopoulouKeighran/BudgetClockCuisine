@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #faf1e4;
+  font-family: "Ubuntu", sans-serif;
+}
+
 .about-us-nav {
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   padding: 15px 25px;
@@ -58,7 +63,7 @@
 
   .container-about_us {
     display: grid;
-    grid-template-columns: 650px 650px;
+    grid-template-columns: 580px 580px;
     grid-template-rows: 300px 150px 400px 150px 400px 100px 100px 380px;
     place-items: center;
     justify-content: center;
@@ -84,14 +89,14 @@
 
     .about_us-img1 {
       grid-area: img-1;
-      width: 540px;
+      width: 500px;
       height: 672px;
       box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
     }
 
     .about_us-img2 {
       grid-area: img-2;
-      width: 540px;
+      width: 500px;
       height: 672px;
       margin-top: -20px;
       box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
@@ -99,7 +104,7 @@
 
     .about_us-txt2 {
       grid-area: txt-2;
-      width: 450px;
+      width: 420px;
       font-size: 1.5rem;
       color: #435334;
       text-shadow: -4px -4px 16px #9eb384;
@@ -108,7 +113,7 @@
 
     .about_us-txt3 {
       grid-area: txt-3;
-      width: 450px;
+      width: 420px;
       font-size: 1.5rem;
       color: #435334;
       text-shadow: -4px -4px 16px #9eb384;
@@ -116,7 +121,7 @@
 
     .about_us-img3 {
       grid-area: img-3;
-      width: 540px;
+      width: 500px;
       height: 672px;
       box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
     }
@@ -138,25 +143,29 @@
   }
 
   .about-us-last-img {
-    width: 100vw;
+    width: 99vw;
   }
 }
 
-@media (min-width: 601px) and (max-width: 1200px) {
-  // .about-us-nav .right-nav ul {
-  //   width: 100px;
-  // }
+// @media (min-width: 571px) and (max-width: 1200px) {
+//   .about-us .container-about_us .about_us-img1 {
+//     width: 240;
+//     height: 372;
+//   }
 
-  .about_us-img1,
-  .about_us-img2,
-  .about_us-img3 {
-    width: 240;
-    height: 372;
-  }
-  .container-about_us {
-    grid-template-columns: 250px 250px;
-  }
-}
+//   .about-us .container-about_us .about_us-img2 {
+//     width: 240;
+//     height: 372;
+//   }
+//   .about-us .container-about_us .about_us-img3 {
+//     width: 240;
+//     height: 372;
+//   }
+
+//   .container-about_us {
+//     grid-template-columns: 250px 250px;
+//   }
+// }
 
 @media (min-width: 300px) and (max-width: 570px) {
   .container-about_us {

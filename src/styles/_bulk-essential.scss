@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
 nav {
   width: 100%;
   display: flex;
@@ -47,7 +51,7 @@ nav {
 // Hero
 
 .bulk-essential-main {
-  background-color: #435334;
+  background-color: #9eb384;
   padding-top: 90px;
 
   .bulk-essential-hero-img {
@@ -61,26 +65,355 @@ nav {
 
     .bulk-essential-intro {
       width: 500px;
-      color: #435334;
-      border: 1px solid #9eb384;
-      background: rgba(67, 83, 52, 0.4);
-      border-radius: 16px;
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
-      backdrop-filter: blur(8.2px);
-      -webkit-backdrop-filter: blur(8.2px);
-      text-shadow: -4px -4px 16px #9eb384;
-      padding: 15px 20px;
-      font-size: clamp(1rem, 10vw, 1.5rem);
-      font-weight: 500;
-      text-align: justify;
       margin-top: 180px;
       margin-bottom: 350px;
-      text-align: center;
+    }
+  }
+}
 
-      span {
-        color: #faf1e4;
-        text-shadow: -4px -6px 8px gray;
+#section-cookers-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+
+  #my-card {
+    width: 70%;
+    background-color: #435334;
+
+    h5 {
+      color: #faf1e4;
+      text-shadow: -2px -2px 18px #faf1e4;
+    }
+
+    .my-card-text {
+      text-align: justify;
+      color: #faf1e4;
+      text-shadow: 1px 1px 8px #faf1e4;
+    }
+
+    #my-card-footer {
+      background-color: #cedebc;
+      .products {
+        display: inline-block;
+
+        padding: 10px 20px;
+
+        .product-imgs {
+          width: 180px;
+          height: 180px;
+          border-radius: 15px;
+          padding: 10px;
+        }
+
+        .products-a {
+          background-color: #435334;
+          padding: 0 35px;
+          color: #faf1e4;
+          text-decoration: none;
+          border-bottom: 4px solid #faf1e4;
+        }
       }
     }
   }
+}
+
+#section-glass-container-cards {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  padding-top: 30px;
+  gap: 85px;
+
+  #my-glass-container-card {
+    width: 32%;
+    background-color: #cedebc;
+    display: flex;
+    border: 2px solid #435334;
+
+    .my-glass-container-card-text {
+      text-align: justify;
+      color: #435334;
+      text-shadow: -1px -1px 8px #435334;
+    }
+
+    #my-glass-container-card-footer {
+      background-color: #435334;
+      .glass-products {
+        display: inline-block;
+
+        padding: 10px 20px;
+
+        .glass-product-imgs {
+          width: 150px;
+          height: 150px;
+          border-radius: 15px;
+          padding: 10px;
+        }
+
+        .glass-products-a {
+          background-color: #435334;
+          padding: 0 15px;
+          color: #faf1e4;
+          text-decoration: none;
+          border-bottom: 4px solid #faf1e4;
+        }
+      }
+    }
+  }
+
+  #my-silicon-bags-card {
+    width: 32%;
+    background-color: #435334;
+    display: flex;
+    border: 2px solid #435334;
+
+    .my-silicon-bag-card-text {
+      text-align: justify;
+      color: #faf1e4;
+      text-shadow: 1px 1px 8px #faf1e4;
+    }
+
+    #my-silicon-bag-card-footer {
+      background-color: #cedebc;
+      .silicon-products {
+        display: inline-block;
+        padding: 10px 20px;
+
+        .silicon-product-imgs {
+          width: 150px;
+          height: 150px;
+          border-radius: 15px;
+          padding: 10px;
+        }
+
+        .silicon-products-a {
+          background-color: #435334;
+          padding: 0 15px;
+          color: #faf1e4;
+          text-decoration: none;
+          border-bottom: 4px solid #faf1e4;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 676px) {
+  #section-glass-container-cards {
+    gap: 20px;
+  }
+
+  #my-glass-container-card {
+    width: 28%;
+  }
+
+  #my-silicon-bags-card {
+    width: 28%;
+  }
+
+  #section-glass-container-cards
+    #my-silicon-bags-card
+    #my-silicon-bag-card-footer
+    .silicon-products {
+    padding: 5px 0;
+  }
+
+  #section-glass-container-cards
+    #my-glass-container-card
+    #my-glass-container-card-footer
+    .glass-products {
+    padding: 5px 0;
+  }
+
+  #section-glass-container-cards
+    #my-glass-container-card
+    #my-glass-container-card-footer
+    .glass-products
+    .glass-product-imgs {
+    width: 100px;
+    height: 100px;
+  }
+
+  #section-glass-container-cards
+    #my-glass-container-card
+    #my-glass-container-card-footer
+    .glass-products
+    .glass-products-a {
+    padding: 0 10px;
+  }
+
+  #section-glass-container-cards
+    #my-silicon-bags-card
+    #my-silicon-bag-card-footer
+    .silicon-products
+    .silicon-product-imgs {
+    width: 100px;
+    height: 100px;
+  }
+
+  #section-glass-container-cards
+    #my-silicon-bags-card
+    #my-silicon-bag-card-footer
+    .silicon-products
+    .silicon-products-a {
+    padding: 0 10px;
+  }
+}
+
+#section-proccesor-baking-cards {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  padding-top: 30px;
+  gap: 85px;
+
+  #my-proccesor-card {
+    width: 32%;
+    background-color: #435334;
+    display: flex;
+    border: 2px solid #435334;
+
+    .my-proccesor-card-text {
+      text-align: justify;
+      color: #faf1e4;
+      text-shadow: 1px 1px 8px #faf1e4;
+    }
+
+    #my-proccesor-card-footer {
+      background-color: #cedebc;
+      .proccesor-products {
+        display: inline-block;
+        padding: 10px 20px;
+
+        .proccesor-product-imgs {
+          width: 150px;
+          height: 150px;
+          border-radius: 15px;
+          padding: 10px;
+        }
+
+        .proccesor-products-a {
+          background-color: #435334;
+          padding: 0 15px;
+          color: #faf1e4;
+          text-decoration: none;
+          border-bottom: 4px solid #faf1e4;
+        }
+      }
+    }
+  }
+
+  #my-baking-card {
+    width: 32%;
+    background-color: #cedebc;
+    display: flex;
+    border: 2px solid #435334;
+
+    .my-baking-card-text {
+      text-align: justify;
+      color: #435334;
+      text-shadow: -1px -1px 8px #435334;
+    }
+
+    #my-baking-card-footer {
+      background-color: #435334;
+      .baking-products {
+        display: inline-block;
+        padding: 10px 20px;
+
+        .baking-product-imgs {
+          width: 150px;
+          height: 150px;
+          border-radius: 15px;
+          padding: 10px;
+        }
+
+        .baking-products-a {
+          background-color: #435334;
+          color: #faf1e4;
+          text-decoration: none;
+          border-bottom: 4px solid #faf1e4;
+          padding: 0 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 676px) {
+  #section-proccesor-baking-cards {
+    gap: 20px;
+  }
+
+  #my-proccesor-card {
+    width: 28%;
+  }
+
+  #my-baking-card {
+    width: 28%;
+  }
+
+  #section-proccesor-baking-cards
+    #my-baking-card
+    #my-baking-card-footer
+    .baking-products {
+    padding: 5px 0;
+  }
+
+  #section-processor-baking-cards
+    #my-proccesor-card
+    #my-proccesor-card-footer
+    .proccesor-products {
+    padding: 5px 0;
+  }
+
+  #section-proccesor-baking-cards
+    #my-proccesor-card
+    #my-proccesor-card-footer
+    .proccesor-products
+    .proccesor-product-imgs {
+    width: 100px;
+    height: 100px;
+  }
+
+  #section-proccesor-baking-cards
+    #my-proccesor-card
+    #my-poccesor-card-footer
+    .proccesor-products
+    .proccesor-products-a {
+    padding: 0 10px;
+  }
+
+  #section-proccesor-cards
+    #my-baking-card
+    #my-baking-card-footer
+    .baking-products
+    .baking-product-imgs {
+    width: 100px;
+    height: 100px;
+  }
+
+  #section-proccesor-baking-cards
+    #my-baking-card
+    #my-baking-card-footer
+    .baking-products
+    .baking-products-a {
+    padding: 0 10px;
+  }
+}
+
+footer {
+  .copyright {
+    text-align: center;
+    color: #435334;
+    font-size: 0.8rem;
+    padding-top: 30px;
+  }
+}
+
+#back {
+  text-decoration: none;
+  color: #faf1e4;
+  text-shadow: -2px -2px 18px #435334;
 }

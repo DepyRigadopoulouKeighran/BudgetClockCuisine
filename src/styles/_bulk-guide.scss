@@ -53,56 +53,67 @@ nav {
   }
 }
 
-.bulk-adv-main {
+.bulk-guide-main {
   background-color: #9eb384;
+  padding-top: 90px;
 
-  .bulk-adv-hero-img {
-    height: 50%;
-    background-image: url(../images/bulk-adv-main2.jpg);
+  .bulk-guide-hero-img {
+    height: 100%;
+    background-image: url(../images/bulk-guide-main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
     display: flex;
     justify-content: center;
     align-items: center;
-  }
 
-  .bulk-adv-intro {
-    margin-top: 740px;
-    color: burlywood;
+    .bulk-guide-intro {
+      width: 500px;
+      margin-top: 180px;
+      margin-bottom: 350px;
+    }
   }
 }
 
-.bulk-adv-description {
-  padding-top: 20px;
+.my-quide-container {
+  padding-top: 30px;
 
-  .bulk-adv-img {
-    width: 420px;
-    height: 570px;
+  .my-first-row,
+  .my-first-columns {
+    background-color: #435334;
+    padding-top: 10px;
+    text-shadow: -1 -1 10 #faf1e4;
   }
 
-  .my-bulk-col {
-    padding-top: 50px;
-  }
-
-  p {
-    text-align: justify;
-    font-size: 1.1rem;
-    text-shadow: -2px -2px 18px #435334;
-    font-family: "Ubuntu", sans-serif;
+  .bulk-guide-h3 {
     color: #faf1e4;
   }
 
-  h3 {
-    text-shadow: -2px -2px 18px #faf1e4;
-    font-family: "Ubuntu", sans-serif;
+  .bulk-guide-main-txt {
+    color: #faf1e4;
+    font-size: 1.3rem;
+  }
+
+  .bulk-guide-h4 {
+    color: #faf1e4;
+    text-shadow: -1 -2 10 #faf1e4;
+  }
+
+  .bulk-guide-txt {
     color: #435334;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    font-size: 1.2rem;
+    text-align: justify;
   }
 
   img {
+    width: 350px;
+    height: 450;
     box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  span {
+    text-decoration: underline;
+    font-weight: bold;
+    color: indianred;
   }
 }
 
@@ -125,45 +136,9 @@ footer {
   font-size: larger;
 }
 
-// @media (min-width: 200px) and (max-width: 500px) {
-//   #my-bulk-adv-container .my-bulk-adv-row {
-//     display: grid;
-//     grid-template-columns: 1fr;
-//     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-//     place-items: center;
-//     justify-content: center;
-//     align-items: center;
-
-//     grid-template-areas:
-//       "img-1"
-//       "txt-1"
-//       "img-2"
-//       "txt-2"
-//       "img-3"
-//       "txt-3";
-
-//     #hour-img1 {
-//       grid-area: img-1;
-//     }
-
-//     #hour-txt1 {
-//       grid-area: txt-1;
-//     }
-
-//     #hour-img2 {
-//       grid-area: img-2;
-//     }
-
-//     #hour-txt2 {
-//       grid-area: txt-2;
-//     }
-
-//     #hour-img3 {
-//       grid-area: img-3;
-//     }
-
-//     #hour-txt3 {
-//       grid-area: txt-3;
-//     }
-//   }
-// }
+@media (min-width: 300px) and (max-width: 775px) {
+  .my-quide-container img {
+    width: 150px;
+    height: 300px;
+  }
+}
