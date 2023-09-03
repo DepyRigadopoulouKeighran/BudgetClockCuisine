@@ -1,137 +1,79 @@
-# DCI Boilerplate sass + parcel
+# Budget Clock Cuisine
 
-An HTML CSS boilerplate with built-in sass support:
+Welcome to Budget Clock Cuisine, your go-to source for budget-friendly, fast, healthy, and delicious recipes. Our platform is dedicated to saving you money and time while providing nutritious meal solutions.
 
-- Development server powered by [parcel](https://parceljs.org/) with sass compilation and auto-reload.
-- Deployments to github pages with [gh-pages](https://www.npmjs.com/package/gh-pages)
+## Table of Contents
 
-## Get Started
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Testing](#testing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Authors](#authors)
 
-- [Setup](#setup)
-- [Useful Commands](#useful-commands)
-- [Project Structure](#project-structure)
-- [Credits](#credits)
+## Getting Started
 
-## Setup
+Budget Clock Cuisine offers a wide range of recipes that are budget-friendly, quick to prepare, healthy, and delectable. Whether you're an experienced cook or a beginner, our platform is designed to simplify your cooking experience.
 
-1. Clone this repository into a new project folder
+### Features
 
-2. Delete the boilerplate's git history to ensure that the project history only includes your commits
+#### 1. Quick and Healthy Recipes
 
-   ```
-   cd <project folder>
-   rm -rf .git
-   ```
+- Explore a collection of recipes that are not only delicious but also budget-conscious and nutritious.
 
-3. Edit `package.json` to add you project's name
+#### 2. Bulk Cooking Benefits
 
-   `package.json`
+- Discover the advantages of bulk cooking, including saving time and money while ensuring nourishing meals.
 
-   ```json
-   {
-     "name": "[project name]",
-     ...
-     "author": "[your name]"
-   }
-   ```
+#### 3. Tools for Bulk Cooking
 
-4. Edit `src/index.html` to add your projects name
+- Learn about the essential tools and equipment needed for successful bulk cooking.
 
-   ```html
-   ...
-   <head>
-     ...
-     <title>[project name]</title>
-   </head>
-   ...
-   ```
+#### 4. Step-by-Step Guides
 
-5. Start a new git repository and make an initial commit. This will make sure that you can work on your project with git.
+- Access detailed step-by-step guides for efficient bulk meal preparation.
 
-   ```
-   git init
-   git add . && git commit -m "Initial commit"
-   ```
+#### 5. Mix and Match Bulk Meals
 
-6. Install the dependencies
+- Get suggestions on how to create balanced and nutritionally complete bulk meals tailored to your preferences.
 
-   ```
-   npm install
-   ```
+#### 6. Clever Pantry Organization
 
-7. Happy Coding!
+- Learn effective strategies for building an organized pantry that optimizes space and enhances cooking efficiency.
 
-## Useful Commands
+#### 7. Home Vegetable Gardening
 
-### Development
+- Find tips and guidance on how to grow your own vegetables at home, even in pots, to elevate your culinary experience.
 
-Run **parcel-live-server** and start coding!
+## Contributing
 
-```
-npm start
-```
+While viewer interaction is not currently a feature of our platform, we appreciate contributions from the community to enhance and expand the Budget Clock Cuisine project. Whether it's adding new recipes, sharing bulk cooking tips, or suggesting pantry organization ideas, your input is valuable. Please review our [contribution guidelines](CONTRIBUTING.md) for details on how to get involved.
 
-### Production
+## Testing
 
-Compile source code from **src** and create an optimized production bundle in **dist** folder ready for **deployment**.
+To ensure that our recipes and guides work as intended, we maintain a rigorous testing process. You can run tests locally using the instructions provided in our [testing documentation](TESTING.md).
 
-```
-npm run build
-```
+## License
 
-### Deploy to Github Pages
+Budget Clock Cuisine is open-source software released under the [MIT License](LICENSE.md).
 
-Deploy your code to **Github Pages**: this script creates a 'gh-pages' branch and publishes the **dist** folder. For this to work, make sure you already have a remote repository on github.
+## Acknowledgments
 
-```
-npm run publish
-```
+We extend our gratitude to the culinary community, food enthusiasts, and the open-source community for their support and inspiration in bringing this project to life.
 
-## Project Structure
+## Authors
 
-Any project created with this boilerplate will follow the structure below:
+- [DespoinaRigadopoulouKeighran](https://github.com/yourusername) - Project
+  Lead
 
-```
-Project
-│   README.md
-│   package.json
-|   package-lock.json
-└───src
-│   │   index.html
-│   |   sassy-css.scss
-|   └───images
-└───dist
-```
+## Acknowledgments
 
-### `README.md`
+I extend my sincere gratitude to my teachers who have played a vital role in shaping and supporting this project. Their guidance, mentorship, and expertise have been invaluable.
 
-The README should contain a brief description of your project, feel free to delete this guide or rename it to add your own description.
+- [Jay-Radan](https://github.com/contributorusername) - Is a true mentor, always approachable and willing to share his wisdom with open hands. His laid-back and friendly demeanor creates a nurturing environment that fosters creativity and growth.
+- [Luke-Dowling](https://github.com/contributorusername) - Has been a constant source of inspiration, patiently guiding us with a wealth of knowledge and expertise. His enthusiasm for our project has been a driving force in our success.
 
-### `package.json` & `package-lock.json`
+We are fortunate to have such dedicated and supportive teachers who not only impart knowledge but also inspire us with their passion for teaching. Their contributions extend beyond the classroom, and we are truly appreciative of their positive impact on our project and our personal growth.
 
-These files contain various information about you, your project and the project dependencies, as well as useful scripts to help you with the development process.
-
-### `src` & `index.html`
-
-The `src` folder contains any file you would want to add to your website. **This is the main folder you will be working in**.
-
-`index.html` is the main page for your website which you will be working on. Feel free to add any new `html` pages you create directly in the `src` folder.
-
-### `main.scss`
-
-The `main.scss` file will contain any `scss` code you will be writing.
-
-### `images`
-
-Contains all images of your project
-
-### `dist`
-
-The `dist` folder will be automatically generated whenever your run the start or build script:
-
-```bash
-npm start
-npm run build
-```
-
-`npm start` will create a non optimized bundle and `npm run build` will create an optimized production bundle, ready to be deployed. It is excluded from `git` tracking since it is not customary to include compiled code in a development project.
+I heartfelt appreciation to our dedicated teacher's helper, [Sara], for her invaluable contribution over all. [Sara] has been a pillar of support, always willing to lend a helping hand and explain concepts with remarkable patience.

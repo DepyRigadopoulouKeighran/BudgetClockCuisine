@@ -47,3 +47,67 @@ nav {
     }
   }
 }
+
+.recipes-main {
+  background-color: #9eb384;
+  padding-top: 90px;
+
+  .recipes-hero-img {
+    height: 100%;
+    background-image: url(../images/Pastitsio-_4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .recipes-intro {
+      width: 500px;
+      margin-top: 180px;
+      margin-bottom: 350px;
+    }
+  }
+}
+
+.my-recipes-container {
+  li {
+    list-style: none;
+  }
+
+  h4,
+  h5,
+  p {
+    padding-left: 30px;
+  }
+
+  p {
+    padding-top: 0;
+    padding-bottom: 0;
+    color: maroon;
+  }
+
+  .ingredients {
+    color: #435334;
+    border: 1px solid rgba(255, 255, 255, 0.62);
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8.2px);
+    -webkit-backdrop-filter: blur(8.2px);
+    text-shadow: -4px -4px 16px #9eb384;
+    margin: 10px 0;
+  }
+
+  .execution {
+    color: #435334;
+    border: 1px solid rgba(255, 255, 255, 0.62);
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8.2px);
+    -webkit-backdrop-filter: blur(8.2px);
+    text-shadow: -4px -4px 16px #9eb384;
+
+    text-align: justify;
+  }
+}

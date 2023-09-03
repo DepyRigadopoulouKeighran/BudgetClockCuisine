@@ -47,3 +47,39 @@ nav {
     }
   }
 }
+
+.grow-main {
+  background-color: #9eb384;
+  padding-top: 90px;
+
+  .grow-hero-img {
+    height: 100%;
+    background-image: url(../images/grow-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .grow-intro {
+      width: 500px;
+      margin-top: 180px;
+      margin-bottom: 350px;
+    }
+  }
+}
+
+.my-grow-section {
+  text-align: justify;
+
+  h4 {
+    text-shadow: -2px -2px 18px #faf1e4;
+    color: #faf1e4;
+    padding-top: 20px;
+  }
+
+  .grow-main-txt {
+    text-shadow: -2px -2px 18px #faf1e4;
+    color: #435334;
+  }
+}
