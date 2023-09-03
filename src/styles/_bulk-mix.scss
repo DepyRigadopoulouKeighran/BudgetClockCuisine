@@ -53,20 +53,20 @@ nav {
   }
 }
 
-.bulk-guide-main {
+.bulk-mix-main {
   background-color: #9eb384;
   padding-top: 90px;
 
-  .bulk-guide-hero-img {
+  .bulk-mix-hero-img {
     height: 100%;
-    background-image: url(../images/bulk-guide-main.jpg);
+    background-image: url(../images/bulk-3saladsn.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    .bulk-guide-intro {
+    .bulk-mix-intro {
       width: 500px;
       margin-top: 180px;
       margin-bottom: 350px;
@@ -74,46 +74,29 @@ nav {
   }
 }
 
-.my-quide-container {
-  padding-top: 30px;
-
-  .my-first-row,
-  .my-first-columns {
-    background-color: #435334;
-    padding-top: 10px;
-    text-shadow: -1 -1 10 #faf1e4;
-  }
-
-  .bulk-guide-h3 {
-    color: #faf1e4;
-  }
-
-  .bulk-guide-main-txt {
-    color: #faf1e4;
-    font-size: 1.3rem;
-  }
-
-  .bulk-guide-h4 {
-    color: #faf1e4;
-    text-shadow: -1 -2 10 #faf1e4;
-  }
-
-  .bulk-guide-txt {
+.my-mix-section {
+  h3,
+  h4 {
+    text-shadow: -2px -2px 18px #faf1e4;
     color: #435334;
-    font-size: 1.2rem;
-    text-align: justify;
+    padding-top: 20px;
   }
 
-  img {
-    width: 350px;
-    height: 450;
-    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+  p {
+    text-shadow: -2px -2px 18px #435334;
+    color: #faf1e4;
+  }
+
+  .my-mix-match-txt {
+    background-color: #435334;
+    text-shadow: -2px -2px 18px #9eb384;
+    padding: 10px;
+    border-radius: 20px;
   }
 
   span {
+    color: #435334;
     text-decoration: underline;
-    font-weight: bold;
-    color: indianred;
   }
 }
 
@@ -134,11 +117,4 @@ footer {
 
 #back:hover {
   font-size: larger;
-}
-
-@media (min-width: 270px) and (max-width: 380px) {
-  .my-quide-container img {
-    width: 280px;
-    height: 300px;
-  }
 }
