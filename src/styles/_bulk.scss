@@ -54,6 +54,11 @@ nav {
   background-color: #435334;
   padding-top: 90px;
 
+  .animate__animated.animate__slideInUp {
+    animation-duration: 4s;
+    animation-delay: 0.2s;
+  }
+
   .bulk-hero-img {
     height: 100%;
     background-image: url(../images/bulk-main2.jpg);
@@ -77,8 +82,8 @@ nav {
       font-size: clamp(1rem, 10vw, 1.5rem);
       font-weight: 500;
       text-align: justify;
-      margin-top: 180px;
-      margin-bottom: 350px;
+      margin-top: 240px;
+      margin-bottom: 310px;
       text-align: center;
 
       span {

@@ -56,6 +56,11 @@ nav {
 .bulk-adv-main {
   background-color: #9eb384;
 
+  .animate__animated .animate__slideInUp {
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+  }
+
   .bulk-adv-hero-img {
     height: 50%;
     background-image: url(../images/bulk-adva-main.jpg);

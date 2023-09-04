@@ -71,12 +71,12 @@ nav {
 // main - options cards
 
 main {
-  background-color: #faf1e4;
+  background-color: #435334;
   padding-top: 90px;
 
   .hero-img {
     height: 90%;
-    background-image: url(../images/mainpage2.jpg);
+    background-image: url(../images/home-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -98,7 +98,7 @@ main {
       width: 600px;
       color: #faf1e4;
       border: 1px solid rgba(255, 255, 255, 0.62);
-      background: rgba(255, 255, 255, 0.4);
+      background: rgba(36, 50, 23, 0.8);
       border-radius: 16px;
       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
       backdrop-filter: blur(8.2px);
@@ -111,7 +111,8 @@ main {
       margin-top: 180px;
 
       span {
-        color: #435334;
+        color: #9eb384;
+        font-weight: bold;
         text-shadow: -4px -6px 8px gray;
       }
     }
@@ -212,7 +213,7 @@ main {
 footer {
   .copyright {
     text-align: center;
-    color: #435334;
+    color: #faf1e4;
     font-size: 0.8rem;
     margin-top: 20px;
   }
