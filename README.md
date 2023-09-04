@@ -57,8 +57,8 @@ To ensure that our recipes and guides work as intended, we maintain a rigorous t
 ## Programms
 
 - html
+- css
 - scss
-- parcel
 
 ## Acknowledgments
 
