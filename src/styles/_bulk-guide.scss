@@ -58,19 +58,13 @@ nav {
   padding-top: 90px;
 
   .bulk-guide-hero-img {
-    height: 100%;
+    height: 550px;
     background-image: url(../images/bulk-guide-main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    .bulk-guide-intro {
-      width: 500px;
-      margin-top: 180px;
-      margin-bottom: 350px;
-    }
   }
 }
 

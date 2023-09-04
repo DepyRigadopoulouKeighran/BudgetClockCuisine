@@ -54,19 +54,13 @@ nav {
   padding-top: 90px;
 
   .pantry-hero-img {
-    height: 100%;
+    height: 550px;
     background-image: url(../images/pantry-main-new2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    .pantry-intro {
-      width: 500px;
-      margin-top: 180px;
-      margin-bottom: 350px;
-    }
   }
 }
 

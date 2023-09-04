@@ -53,7 +53,7 @@ nav {
   padding-top: 90px;
 
   .grow-hero-img {
-    height: 100%;
+    height: 700px;
     background-image: url(../images/grow-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,5 +81,36 @@ nav {
   .grow-main-txt {
     text-shadow: -2px -2px 18px #faf1e4;
     color: #435334;
+  }
+}
+
+.video-container {
+  background-color: #435334;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.grow-products {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  .grow-product-cards {
+    border: 2px solid #435334;
+    background-color: #435334;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+
+    .grow-product-imgs {
+      width: 180px;
+      height: 180px;
+      border-radius: 15px;
+      padding: 10px;
+    }
+
+    .grow-a {
+      color: #faf1e4;
+      text-align: center;
+    }
   }
 }

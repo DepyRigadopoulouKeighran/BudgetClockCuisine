@@ -8,7 +8,7 @@ Welcome to Budget Clock Cuisine, your go-to source for budget-friendly, fast, he
 - [Features](#features)
 - [Contributing](#contributing)
 - [Testing](#testing)
-- [License](#license)
+- [Programms](#programms)
 - [Acknowledgments](#acknowledgments)
 - [Authors](#authors)
 
@@ -54,9 +54,11 @@ While viewer interaction is not currently a feature of our platform, we apprecia
 
 To ensure that our recipes and guides work as intended, we maintain a rigorous testing process. You can run tests locally using the instructions provided in our [testing documentation](TESTING.md).
 
-## License
+## Programms
 
-Budget Clock Cuisine is open-source software released under the [MIT License](LICENSE.md).
+- html
+- scss
+- parcel
 
 ## Acknowledgments
 
@@ -71,8 +73,8 @@ We extend our gratitude to the culinary community, food enthusiasts, and the ope
 
 I extend my sincere gratitude to my teachers who have played a vital role in shaping and supporting this project. Their guidance, mentorship, and expertise have been invaluable.
 
-- [Jay-Radan](https://github.com/contributorusername) - Is a true mentor, always approachable and willing to share his wisdom with open hands. His laid-back and friendly demeanor creates a nurturing environment that fosters creativity and growth.
-- [Luke-Dowling](https://github.com/contributorusername) - Has been a constant source of inspiration, patiently guiding us with a wealth of knowledge and expertise. His enthusiasm for our project has been a driving force in our success.
+- [Jay-Radan](https://github.com/Jay-Radan) - Is a true mentor, always approachable and willing to share his wisdom with open hands. His laid-back and friendly demeanor creates a nurturing environment that fosters creativity and growth.
+- [Luke-Dowling](https://github.com/luke-dowling) - Has been a constant source of inspiration, patiently guiding us with a wealth of knowledge and expertise. His enthusiasm for our project has been a driving force in our success.
 
 We are fortunate to have such dedicated and supportive teachers who not only impart knowledge but also inspire us with their passion for teaching. Their contributions extend beyond the classroom, and we are truly appreciative of their positive impact on our project and our personal growth.
 

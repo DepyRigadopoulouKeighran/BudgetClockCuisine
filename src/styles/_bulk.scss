@@ -60,7 +60,7 @@ nav {
   }
 
   .bulk-hero-img {
-    height: 100%;
+    height: 530;
     background-image: url(../images/bulk-main2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,9 +81,6 @@ nav {
       padding: 15px 20px;
       font-size: clamp(1rem, 10vw, 1.5rem);
       font-weight: 500;
-      text-align: justify;
-      margin-top: 240px;
-      margin-bottom: 310px;
       text-align: center;
 
       span {
