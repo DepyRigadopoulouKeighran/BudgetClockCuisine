@@ -2,6 +2,7 @@
   "name": "boilerplate",
   "version": "1.0.0",
   "description": "This is a boilerplate",
+  "homepage": "https://DespoinaRigadopoulouKeighran.github.io/BudgetClockCuisine",
   "scripts": {
     "start": "rm -rf dev-serve && parcel src/index.html src/about-us.html src/recipes_cards.html src/bulk.html src/pantry.html src/grow_food.html src/bulk-advantage.html src/bulk-essential.html src/bulk-guide.html src/pantry.html --dist-dir dev-serve",
     "build": "rm -rf build && parcel build src/index.html --dist-dir build --public-url ./",
