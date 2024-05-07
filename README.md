@@ -78,4 +78,4 @@ I extend my sincere gratitude to my teachers who have played a vital role in sha
 
 We are fortunate to have such dedicated and supportive teachers who not only impart knowledge but also inspire us with their passion for teaching. Their contributions extend beyond the classroom, and we are truly appreciative of their positive impact on our project and our personal growth.
 
-I heartfelt appreciation to our dedicated teacher's helper, [Sara], for her invaluable contribution over all. [Sara] has been a pillar of support, always willing to lend a helping hand and explain concepts with remarkable patience.
+I heartfelt appreciation to our dedicated assistant teacher, Sara Dalal, for her invaluable contribution over all. Sara has been a pillar of support, always willing to lend a helping hand and explain concepts with remarkable patience.
